@@ -1,6 +1,7 @@
 <div align="center">
-    <img src="https://hermes.digitalinnovation.one/courses/badge/4e771693-693c-4e3e-833c-f963ce9e65b8.png" width="200">
+    <img src="angular.png" width="200">
     <h1>Introdução ao Angular 8</h1>
+    <h2>Digital Innovation One</h2>
 </div>
 
 <div align="center">
@@ -11,17 +12,18 @@
 ### :memo: Modulos
 
 #### Primeiros passos para desenvolver com Angular
-##### O que veremos na aula
-##### Instalando e configurando o ambiente
-> 1. Instalação do Node
-> 2. Instalação do Angular 8
-> 3. Instalação do Visual Studio Code
+> 1. O que veremos na aula
+> 2. Instalando e configurando o ambiente
+> 3. Criando a primeira aplicação com Angular
+
 #### Lidando com vários componentes
 #### Segregando responsabilidades
 
 ### :memo: Tecnologias
-Node 12.18
-Angular 8.3.25
+<ul>
+    <li>Node 12.18</li>
+    <li>Angular 8.3.25</li>
+</ul>
 
 
 <hr>
