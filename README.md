@@ -15,6 +15,7 @@
 > 1. O que veremos na aula
 > 2. Instalando e configurando o ambiente
 > 3. Criando a primeira aplicação com Angular
+> 4. Trabalhando com módulos e componentes
 
 #### Lidando com vários componentes
 #### Segregando responsabilidades
