@@ -20,6 +20,8 @@
 > 6. Criando componentes com atributos interdependentes
 
 #### Lidando com vários componentes
+> 1. O que é injeção de dependência
+
 #### Segregando responsabilidades
 
 ### :memo: Tecnologias
