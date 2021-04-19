@@ -21,13 +21,15 @@
 
 #### Lidando com vários componentes
 > 1. O que é injeção de dependência
+> 2. Tratando eventos data binding
 
 #### Segregando responsabilidades
 
-### :memo: Tecnologias
+### :hammer: Tecnologias
 <ul>
     <li>Node 12.18</li>
     <li>Angular 8.3.25</li>
+    <li>Bootstrap</li>
 </ul>
 
 
