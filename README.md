@@ -24,6 +24,7 @@
 > 2. Tratando eventos data binding
 > 3. Transformando datas com Pipes
 > 4. Protegendo Rotas com Guards
+> 5. Ativando Rotas para acessar componentes
 
 #### Segregando responsabilidades
 
