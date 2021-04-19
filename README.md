@@ -22,6 +22,7 @@
 #### Lidando com vários componentes
 > 1. O que é injeção de dependência
 > 2. Tratando eventos data binding
+> 3. Transformando datas com Pipes
 
 #### Segregando responsabilidades
 
@@ -29,7 +30,7 @@
 <ul>
     <li>Node 12.18</li>
     <li>Angular 8.3.25</li>
-    <li>Bootstrap</li>
+    <li>Bootstrap 4.6.0</li>
 </ul>
 
 
