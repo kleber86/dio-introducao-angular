@@ -17,6 +17,7 @@
 > 3. Criando a primeira aplicação com Angular
 > 4. Trabalhando com módulos e componentes
 > 5. Criando componentes e construindo o projeto
+> 6. Criando componentes com atributos interdependentes
 
 #### Lidando com vários componentes
 #### Segregando responsabilidades
