@@ -23,6 +23,7 @@
 > 1. O que é injeção de dependência
 > 2. Tratando eventos data binding
 > 3. Transformando datas com Pipes
+> 4. Protegendo Rotas com Guards
 
 #### Segregando responsabilidades
 
