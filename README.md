@@ -29,6 +29,7 @@
 
 #### Segregando responsabilidades
 > 1. Fazendo requisições em HTTP
+> 2. Trabalhando com delete
 
 ### :hammer: Tecnologias
 <ul>
