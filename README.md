@@ -28,6 +28,7 @@
 > 6. Trabalhando com formulários e templates
 
 #### Segregando responsabilidades
+> 1. Fazendo requisições em HTTP
 
 ### :hammer: Tecnologias
 <ul>

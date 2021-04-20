@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Observable } from "rxjs";
 import { Course } from "./course";
 import { CourseService } from "./course.service";
 
@@ -14,8 +15,17 @@ export class CourseListComponent implements OnInit{
     constructor(private courseService: CourseService){}
 
     ngOnInit(): void{
-        this._courses = this.courseService.retriveAll()
-        this.filteredCourses = this._courses
+        this.retriveAll()
+    }
+
+    retriveAll():void{
+        this.courseService.retriveAll().subscribe({
+            next: courses => {
+                this._courses = courses
+                this.filteredCourses = this._courses
+            },
+            error: error => console.log('Error: ' + error)
+        })
     }
 
     set filtrar(value: string){
