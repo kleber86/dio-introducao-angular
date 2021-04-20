@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-    <img src="assets/site.gif">
+    <img src="site.gif">
 </div>
 
 
@@ -32,6 +32,7 @@
 > 2. Trabalhando com delete
 > 3. Segregando a aplicação em módulos
 > 4. Conhecendo a pasta shared
+> 5. Tratando erros com Angular
 
 ### :hammer: Tecnologias
 <ul>
