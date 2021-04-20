@@ -1,1 +1,102 @@
-<h2>ID:{{ courseID }}</h2>
+<h2>Course Info</h2>
+
+<hr>
+
+<form #courseForm="ngForm">
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">ID:</label>
+        <div class="col-sm-10">
+            <input type="text" name="id" #courseId="ngModel" [(ngModel)]="course.id" class="form-control" disabled>
+
+            <div class="invalid-feedback">
+                <span>Course name is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+            <input type="text" name="name" #courseName="ngModel" [(ngModel)]="course.name" class="form-control"
+                [ngClass]="{'is-invalid': courseName.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course name is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Release Date:</label>
+        <div class="col-sm-10">
+            <input type="text" name="releaseDate" #courseReleaseDate="ngModel" [(ngModel)]="course.releaseDate" class="form-control"
+                [ngClass]="{'is-invalid': courseReleaseDate.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course Release Date is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Description:</label>
+        <div class="col-sm-10">
+            <textarea name="description" #courseDescription="ngModel" [(ngModel)]="course.description"
+                class="form-control" [ngClass]="{'is-invalid': courseDescription.invalid}" rows="5"></textarea>
+            <div class="invalid-feedback">
+                <span>Course description is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Duration:</label>
+        <div class="col-sm-10">
+            <input type="text" name="duration" #courseDuration="ngModel" [(ngModel)]="course.duration" class="form-control"
+                [ngClass]="{'is-invalid': courseDuration.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course duration is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Code:</label>
+        <div class="col-sm-10">
+            <input type="text" name="code" #courseCode="ngModel" [(ngModel)]="course.code" class="form-control"
+                [ngClass]="{'is-invalid': courseCode.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course code is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Rating:</label>
+        <div class="col-sm-10">
+            <input type="number" name="rating" #courseRating="ngModel" [(ngModel)]="course.rating" class="form-control"
+                [ngClass]="{'is-invalid': courseRating.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course rating is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Price:</label>
+        <div class="col-sm-10">
+            <input type="number" name="price" #coursePrice="ngModel" [(ngModel)]="course.price" class="form-control"
+                [ngClass]="{'is-invalid': coursePrice.invalid}" required>
+
+            <div class="invalid-feedback">
+                <span>Course price is required.</span>
+            </div>
+        </div>
+    </div>
+
+    <button [disabled]="courseForm.invalid" class="btn btn-primary mr-2" (click)="save()">Save</button>
+    <button [routerLink]="['/courses']" class="btn btn-secondary">Back</button>
+</form>

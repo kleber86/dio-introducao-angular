@@ -25,6 +25,7 @@
 > 3. Transformando datas com Pipes
 > 4. Protegendo Rotas com Guards
 > 5. Ativando Rotas para acessar componentes
+> 6. Trabalhando com formulários e templates
 
 #### Segregando responsabilidades
 
