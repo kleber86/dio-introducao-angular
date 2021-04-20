@@ -30,6 +30,8 @@
 #### Segregando responsabilidades
 > 1. Fazendo requisições em HTTP
 > 2. Trabalhando com delete
+> 3. Segregando a aplicação em módulos
+> 4. Conhecendo a pasta shared
 
 ### :hammer: Tecnologias
 <ul>
